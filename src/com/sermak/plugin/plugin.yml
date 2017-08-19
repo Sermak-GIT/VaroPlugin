@@ -1,0 +1,97 @@
+name: VaroPlugin
+main: com.sermak.plugin.VaroPlugin
+version: 1.0
+author: Sermak
+description: A Varoufakis Plugin
+database: true
+commands:
+   r:
+      description: Registers a team with two players
+      permission-message: You don't have permission
+   rg:
+      description: Displays all teams.
+      permission-message: You don't have permission
+   rr:
+      description: Removes a team with a name.
+      permission-message: You don't have permission
+   s:
+      description: Starts a player session.
+      permission-message: You don't have permission
+   t:
+      description: Gets the time the player has left
+      permission-message: You don't have permission
+   setSessionTime:
+      description: Sets session time. Default 25
+      permission-message: You don't have permission
+   varostart:
+      description: Starts Varo.
+      permission-message: You don't have permission
+   varotoggle:
+      description: Toggles Varo. Only for Sermak
+      permission-message: You don't have permission
+   getVaroDay:
+      description: Returns the number of days that passed
+      permission-message: You don't have permission
+   getss:
+      description: Returns the Sessions of the player executing
+      permission-message: You don't have permission
+   getpp:
+      description: Returns the sessions the player executing can postplay
+      permission-message: You don't have permission
+   setPostPlays:
+      description: Sets the amount of valid postplays. Default 2
+      permission-message: You don't have permission
+   getDeadPlayers:
+      description: Gets the dead players
+      permission-message: You don't have permission
+   banana:
+      description: Bans the item in hand. Name in order to not collide with ban command
+      permission-message: You don't have permission
+   newDay:
+      description: Starts a new day. Only for Sermak
+      permission-message: You don't have permission
+   getbanana:
+      description: Returns all banned items
+      permission-message: You don't have permission
+   nobanana:
+      description: Unbanns item in hand
+      permission-message: You don't have permission
+   isbanana:
+      description: Tells if item is a banana
+      permission-message: You don't have permission
+   seed:
+      description: Disables seed command
+      permission-message: You don't have permission
+   unfreeze:
+      description: Unfreezes player
+      permission-message: You don't have permission
+   freeze:
+      description: Freezes player
+      permission-message: You don't have permission
+   c:
+      description: Return coordinates of player
+      permission-message: You don't have permission
+   chest:
+      description: Generates loot chests
+      permission-message: You don't have permission
+   getconfig:
+      description: Returns config values
+      permission-message: You don't have permission
+   setOvertimeRadius:
+      description: Sets overtime radius. Default 50
+      permission-message: You don't have permission
+   setOvertimeLength:
+      description: Sets overtime length. Default 15
+      permission-message: You don't have permission
+   setInactivityMax:
+      description: Sets maximum days of inactivity. Default 3
+      permission-message: You don't have permission
+   setCoordsDelay:
+      description: Sets delay of coordinates. Default 3
+      permission-message: You don't have permission
+   rezzz:
+      description: Resurrects Player
+      permission-message: You don't have permission
+   kill:
+      description: Kills Player
+      permission-message: You don't have permission

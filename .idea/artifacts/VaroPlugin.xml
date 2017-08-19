@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="VaroPlugin">
+    <output-path>H:/Server/Bukkit/plugins</output-path>
+    <root id="archive" name="VaroPlugin.jar">
+      <element id="library" level="project" name="craftbukkit-1.11" />
+      <element id="module-output" name="VaroPlugin" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/com/sermak/plugin/plugin.yml" />
+      <element id="library" level="project" name="BarAPI" />
+    </root>
+  </artifact>
+</component>
